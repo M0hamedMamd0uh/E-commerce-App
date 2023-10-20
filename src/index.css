@@ -1,0 +1,196 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap");
+:root {
+  --main-color: #0aad0a;
+  --light-color: #f0f3f2;
+  --shadow: rgba(145, 158, 171, 0.2) 0px 2px 4px -1px,
+    rgba(145, 158, 171, 0.14) 0px 4px 5px 0px,
+    rgba(145, 158, 171, 0.12) 0px 1px 10px 0px;
+  --font-family: "Encode Sans Expanded", sans-serif;
+  --rating-color: #ffc908;
+}
+
+body {
+  font-family: var(--font-family) !important;
+}
+
+
+/* Global Rules */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #999999be;
+}
+
+/* Global Rules */
+
+.rating-color {
+  color: var(--rating-color);
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+a,
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+.product {
+  border: solid 1px transparent;
+  overflow: hidden;
+}
+
+.product:hover {
+  box-shadow: var(--shadow);
+  border: solid 1px var(--main-color);
+}
+.product .btn {
+  transition: transform 0.5s, opacity 1s;
+  transform: translateY(100%);
+  opacity: 0;
+}
+.product:hover .btn {
+  opacity: 1;
+  transform: translateY(0%);
+}
+
+.btnHover {
+  background-color: var(--main-color) !important;
+  transition: 0.5s !important;
+}
+
+.btnHover:hover {
+  background-color: #0e830e !important;
+}
+
+.font-sm {
+  font-size: 15px;
+}
+.text-main {
+  color: var(--main-color);
+  transition: 0.2s;
+}
+
+.text-main:hover {
+  color: #000100;
+}
+
+.bg-main {
+  background-color: var(--main-color) !important;
+}
+.bg-main-light {
+  background-color: var(--light-color) !important;
+}
+.add-3dots {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+hr {
+  color: #c0bfbf;
+}
+
+.payment-logo img {
+  width: 50px;
+  margin: 0 10px;
+}
+.logo-store img {
+  width: 90px;
+  margin: 0 5px;
+}
+
+.cartRow .row:not(:last-child) {
+  border-bottom: 1px solid #e2e2e2;
+}
+.shopCart i {
+  font-size: 17px;
+}
+
+.shopCart span {
+  transition: 0.2s;
+}
+.shopCart i:hover + span {
+  background-color: #198754 !important;
+}
+.shopCart span {
+  font-size: 10px;
+  left: 65%;
+  top: 0;
+}
+
+.offlineMessage {
+  position: fixed !important;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 5px;
+}
+
+.fav-icon {
+  border: none !important;
+}
+.fav-icon i {
+  font-size: 20px;
+}
+
+.viewHeight {
+  min-height: calc(100vh - (58.49px + 335.6px));
+}
+.pageActive {
+  background-color: #ddd;
+}
+.pageActive:hover {
+  background-color: #ccc;
+}
+
+.navbar .nav-link {
+  padding: 8px 6px !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #333 !important;
+  font-weight: bold;
+}
+
+.profile {
+  height: calc(100vh - (58.49px + 335.6px));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  height: 2px !important;
+}
+
+button:focus:not(:focus-visible) {
+  box-shadow: 0px 0px 4px 0px #ccc !important;
+}
+
+.btnPayment {
+  width: 230px;
+}
