@@ -48,7 +48,3 @@ A full-featured e-commerce application that enables users to browse products, ma
 ## 💡 Technologies & Tools
 
 *(Add your technologies here, e.g., React, Angular, Node.js, Firebase, etc.)*
-
----
-
-Feel free to ask if you want me to help you with adding installation instructions or usage examples!
