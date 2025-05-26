@@ -1,38 +1,33 @@
-Main Features:
-1. Authentication 🔐
-User registration and login with email and password.
+🚀 Main Features
+🔐 Authentication
+User registration and login using email and password.
 
-Option to reset forgotten passwords.
+Password reset functionality.
 
-Access control to protect sensitive areas for authenticated users only.
+Protected routes and data access for authenticated users only.
 
-2. Cart / Wishlist 🛒❤️
-Add and remove products from the shopping cart.
+🛒 Cart & ❤️ Wishlist
+Add or remove products from the shopping cart.
 
-Save favorite products in a wishlist for later.
+Save favorite items to the wishlist for future purchases.
 
-Display total items and prices in the cart.
+View total items and prices in the cart.
 
-Adjust product quantities directly within the cart.
+Modify product quantities inside the cart.
 
-3. Core Pages 🧭
-Home 🏠: Showcases featured products, special offers, and latest arrivals.
+📱 Core Pages & Sections
+Home 🏠: Show featured products, latest deals, and new arrivals.
 
-Product 📦: Detailed product pages with images, ratings, full descriptions, and options to add to cart or wishlist.
+Product 📦: Detailed product info with images, ratings, and options to add to cart or wishlist.
 
-Settings ⚙️: Manage user information, preferences, and notification settings.
+Settings ⚙️: User profile settings and preferences.
 
 Brands 🏷️: Browse products by brand.
 
-Categories 📂: Filter products by category for easier navigation.
+Categories 📂: Filter and browse products by category.
 
-Profile 👤: View and update user profile information and order history.
+Profile 👤: View and update user info and order history.
 
 Orders 📋: Track current and past orders status.
 
-Payment 💳💵:
-
-Cash on delivery option 💵.
-
-Online payment gateway integration for smooth checkout 💳.
-
+Payment 💳💵: Pay by cash on delivery or via online payment gateways.
